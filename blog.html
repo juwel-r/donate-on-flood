@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate on Flood</title>
+    <script src="https://kit.fontawesome.com/f56a8c511a.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              lexend: ["Lexend", "sans-serif"],
+            },
+            colors: {
+              navBg: "#F9F7F3",
+              btnBg: "#B4F461",
+              secText: "rgba(17, 17, 17, 0.7)",
+              amountBg: "rgba(17, 17, 17, 0.05)",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      /* .test {
+        font-family: "Lexend", sans-serif;
+      } */
+      .btx {
+        /* margin: 10px auto; */
+      }
+    </style>
+  </head>
+  <body class="font-lexend">
+      <header class="fixed backdrop-blur-3xl w-full">
+        <nav
+          class="backdrop-blur-3xl bg-navBg flex justify-around py-3 md:py-6 text-xl font-semibold"
+        >
+          <button
+            onclick="window.location.href='index.html'"
+            class="btn bg-btnBg text-xl px-8"
+          >
+            Home
+          </button>
+          <div class="flex text-nowrap items-center gap-4">
+            <img src="./images/logo.png" alt="Donate Logo" />
+            <h1 class="hidden md:block">Donate Bangladesh</h1>
+          </div>
+          <div
+            id="currentBalance"
+            class="text-secText flex text-nowrap items-center gap-4 font-medium"
+          >
+            <img src="./images/coin.png" alt="coin" />
+            <p><span>10000</span><span> BDT</span></p>
+          </div>
+        </nav>
+      </header>
+
+    <main class="pt-28 w-11/12 mx-auto">
+        <div>
+            <h1 class="font-extrabold text-4xl">Important FAQ <span><i class="fa-solid fa-question text-6xl"></i></span></h1>
+        </div>
+        <div class="join join-vertical w-full mt-6">
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" checked="checked" />
+              <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" />
+              <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" />
+              <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" />
+              <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+    </main>
+  </body>
+</html>
