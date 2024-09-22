@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donate on Flood</title>
-</head>
-<body>
-    <h1>Help the Bangladeshi flood victims</h1>
-</body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              lexend: ["Lexend", "sans-serif"],
+            },
+            colors: {
+              navBg: "#F9F7F3",
+              btnBg: "#B4F461",
+              secText: "rgba(17, 17, 17, 0.7)",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      /* .test {
+        font-family: "Lexend", sans-serif;
+      } */
+    </style>
+  </head>
+  <body>
+    <main>
+      <head>
+        <nav class="bg-navBg flex justify-around py-3 md:py-6 text-xl font-semibold backdrop-opacity-10">
+          <button class="btn bg-btnBg text-xl font-semibold px-8">Blog</button>
+          <div class="flex text-nowrap items-center gap-4">
+            <img src="./images/logo.png" alt="Donate Logo" />
+            <h1 class="hidden md:block">Donate Bangladesh</h1>
+          </div>
+          <div id="currentBalance" class="text-secText flex text-nowrap items-center gap-4 font-medium">
+            <img src="./images/coin.png" alt="coin">
+            <p><span>10000</span><span> BDT</span></p>
+          </div>
+        </nav>
+      </head>
+    </main>
+  </body>
 </html>
