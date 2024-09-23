@@ -26,7 +26,7 @@ document
       const transactions = document.createElement("div");
       transactions.innerHTML = `
         <div class="border rounded-xl p-4 md:p-8 space-y-4" >
-            <h1 class="font-bold"><span id="historyAmount">${donateAmount}</span> Taka is Donated for famine-2024 at Noakhali, Bangladesh</h1>
+            <h1 class="font-bold"><span id="historyAmount">${donateAmount}</span> Taka is Donated to Support the Flood Victims of Noakhali.</h1>
             <p class="font-light">Date: <span>${new Date()}</span></p>
           </div>`;
       transactionSec.appendChild(transactions);
@@ -60,7 +60,7 @@ document
       const transactions = document.createElement("div");
       transactions.innerHTML = `
         <div class="border rounded-xl p-4 md:p-8 space-y-4" >
-            <h1 class="font-bold"><span id="historyAmount">${donateAmount}</span> Taka is Donated for famine-2024 at Feni, Bangladesh</h1>
+            <h1 class="font-bold"><span id="historyAmount">${donateAmount}</span> Taka is Donated for Support to Flood-Affected Families of Feni.</h1>
             <p class="font-light">Date: <span>${new Date()}</span></p>
           </div>`;
       transactionSec.appendChild(transactions);
@@ -94,7 +94,7 @@ document
       const transactions = document.createElement("div");
       transactions.innerHTML = `
         <div class="border rounded-xl p-4 md:p-8 space-y-4" >
-            <h1 class="font-bold"><span id="historyAmount">${donateAmount}</span> Taka is Donated for Injured in the Quota Movement of Bangladesh</h1>
+            <h1 class="font-bold"><span id="historyAmount">${donateAmount}</span> Taka is Donated to Support Injured Protesters Student in Bangladesh.</h1>
             <p class="font-light">Date: <span>${new Date()}</span></p>
           </div>`;
       transactionSec.appendChild(transactions);
